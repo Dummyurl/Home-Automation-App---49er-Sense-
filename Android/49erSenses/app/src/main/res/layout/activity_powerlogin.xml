@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Welcome 49er Senses "
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Already registered?"
+        android:layout_marginBottom="10sp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Username"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Password"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:id="@+id/powerusernameed"
+            android:enabled="true"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:id="@+id/powertopassworded"
+            android:enabled="true"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/powerloginbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:onClick="OnPowerLogin"
+        android:text="Login"
+        android:layout_marginBottom="20sp"
+        android:textAllCaps="false" />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="New to 49er Sense?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:layout_marginBottom="20sp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:id="@+id/powertoregisterbtn"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Reset"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/powerresetbtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Back"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/powertobackbtn"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

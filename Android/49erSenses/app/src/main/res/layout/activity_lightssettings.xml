@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Lights Settings For Main Floor. "
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:text="Living Room"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"
+
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/seekbarlroom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:max="3" />
+
+            <TextView
+                android:id="@+id/lrtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kitchen"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/seekbarkitchen"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:max="3" />
+
+            <TextView
+                android:id="@+id/kitchentext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#0000">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Porch"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/seekbarporch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:max="3" />
+
+            <TextView
+                android:id="@+id/porchtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:id="@+id/backlightssettingsbtn"
+
+        />
+
+
+
+
+</LinearLayout>

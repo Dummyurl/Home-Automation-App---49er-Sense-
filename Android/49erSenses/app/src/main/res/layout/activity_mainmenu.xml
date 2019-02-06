@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Welcome User"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security System"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/securitysystemmainmenubtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garage Control"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/garagecontrolmainmenubtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thermostat"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/thermostatmainmenubtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lights"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/lightsmainmenubtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Locks"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/locksmainmenubtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Door/Window Sensors"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/doorwindowsensorsmainemenubtn"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Monitoring"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/videomonitoringmainmenubtn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/backmainmenubtn"
+            />
+
+
+    </LinearLayout>

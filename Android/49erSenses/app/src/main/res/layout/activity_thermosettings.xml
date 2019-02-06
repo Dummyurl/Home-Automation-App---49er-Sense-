@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Thermostat settings for Main Floor "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Control Temperature:"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Mode "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heat"
+            android:onClick="OnHeatmain"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/heatthermosettingbtn"
+            />
+
+        <Button
+            android:id="@+id/coolthermosettingbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Cool"
+            android:onClick="OnCoolmain"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:onClick="OnOffmain"
+            android:textColor="#000000"
+            android:id="@+id/modeoffthermosettingbtn"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Fan"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ON"
+            android:textSize="18sp"
+            android:onClick="OnFanonmain"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:id="@+id/fanonthermosettingbtn"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auto"
+            android:textSize="18sp"
+            android:onClick="OnFanautomain"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/autothermosettingbtn"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:textSize="18sp"
+            android:onClick="OnFanoffmain"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:id="@+id/fanoffthermosettingbtn"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:id="@+id/backthermosettingbtn"
+        />
+
+
+</LinearLayout>
